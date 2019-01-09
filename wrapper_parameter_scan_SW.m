@@ -134,7 +134,7 @@ for ii=1:n
     mirrN=2*param.N-1;
     
     %solve the PDE
-    [dataCe,data_Nu,data_L,data_AHL,data_T,data_P,data_RFP,data_CFP,t_data]=spec_wrapper_functionS(param);
+    [dataCe,data_Nu,data_L,data_AHL,data_T,data_P,data_RFP,data_CFP,t_data]=spec_wrapper_function_SW(param);
     
     totalmcherry=real(dataCe).*real(data_RFP);
     %pks=findpeaks(totalmcherry); %find peaks of the distribution
