@@ -2,7 +2,7 @@
 %% To integrate the advection,diffusion and reaction of the equations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function out=adr_func(t,vec,param,tt)
+function out=adr_func_SW(t,vec,param,tt)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%% The parameters used in this function        %%%%%%%%%%%%
