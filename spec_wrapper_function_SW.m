@@ -48,7 +48,7 @@ for i=1:nplots
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         %%%%%%%%%%%%% Advection, Diffusion and Reaction %%%%%%%%%%%%%%%%
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        sol=ode45(@adr_func,[0 dt],inputs,options,param,t);
+        sol=ode45(@adr_func_SW,[0 dt],inputs,options,param,t);
         
         vec=(deval(sol,dt));
         L0=vec(1:N);
