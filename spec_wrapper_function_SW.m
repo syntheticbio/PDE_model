@@ -5,7 +5,7 @@
 %% cell-lysozyme-T7 dynamics; it is called by wrapper.m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [dataCe, dataNu, dataL, dataAHL, dataT, dataP, dataRFP, dataCFP, tdata ]=spec_wrapper_functionS(param)
+function [dataCe, dataNu, dataL, dataAHL, dataT, dataP, dataRFP, dataCFP, tdata ]=spec_wrapper_function_SW(param)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Parameters and Initial Distributions   %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
